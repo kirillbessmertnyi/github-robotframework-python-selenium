@@ -22,6 +22,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install robotframework
         pip install robotframework-seleniumlibrary
+        pip install webdriver-manager
         pip install requests
         pip install ./aquaAPI/aqua-rest-api-client/dist/aqua_rest_api_client-24.14.0.0-py3-none-any.whl
     - name: Test

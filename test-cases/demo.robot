@@ -4,7 +4,7 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${LOGIN URL}      https://www.saucedemo.com
-${BROWSER}        Chrome
+${BROWSER}        headlesschrome
 
 *** Test Cases ***
 Valid Login
@@ -34,7 +34,7 @@ Submit Credentials
     Click Button    login-button
 
 Welcome Page Should Be Open
-    Title Should Be    Swag Labsss
+    Title Should Be    Swag Labs
 
 Init
     Register Keyword To Run On Failure  Capture Page Screenshot With Unique Name

@@ -34,7 +34,7 @@ Submit Credentials
     Click Button    login-button
 
 Welcome Page Should Be Open
-    Title Should Be    Swag Labs
+    Title Should Be    Swag Lab
 
 Init
     Register Keyword To Run On Failure  Capture Page Screenshot With Unique Name

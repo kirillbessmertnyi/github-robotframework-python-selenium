@@ -15,9 +15,9 @@ import requests
 class Hooks:
     ROBOT_LISTENER_API_VERSION = 2
     
-    AQUA_BASE_URL="https://app.aqua-cloud.io/aquawebng"
-    AQUA_USERNAME="***PUT***AQUA***USERNAME***HERE***"
-    AQUA_PASSWORD="***PUT***AQUA***PASSWORD***HERE***"
+    AQUA_BASE_URL="https://aqua-auto-aqamasterpla.aqua-testing.com/aquawebng"
+    AQUA_USERNAME="start"
+    AQUA_PASSWORD="default"
 
     def get_access_token(
         self, aqua_base_url: str, aqua_user: str, aqua_password: str
